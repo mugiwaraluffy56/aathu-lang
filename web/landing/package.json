@@ -1,1 +1,10 @@
-{"name":"@aathu/landing","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build"}}
+{
+  "name": "@aathu/landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "\"C:\\Program Files (x86)\\sbt\\bin\\sbt\" fastOptJS::webpack",
+    "build": "\"C:\\Program Files (x86)\\sbt\\bin\\sbt\" fullOptJS::webpack",
+    "serve": "npx serve ."
+  }
+}

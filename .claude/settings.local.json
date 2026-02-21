@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sbt:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(java:*)",
+      "Bash(winget:*)",
+      "Bash(cmd.exe /c \"where sbt\")",
+      "Bash(cmd.exe /c \"where sbt 2>&1 & echo exit:%errorlevel%\")",
+      "Bash(\"/c/Program Files \\(x86\\)/sbt/bin/sbt\" fastOptJS::webpack)",
+      "Bash(\"/c/Program Files \\(x86\\)/sbt/bin/sbt\" \"Compile/fastOptJS/webpack\")"
+    ]
+  }
+}
