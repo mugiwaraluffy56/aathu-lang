@@ -1,0 +1,3 @@
+---
+- name: Install aathu-lang
+  get_url: { url: "https://releases.aathu-lang.dev/latest/aathu", dest: /usr/local/bin/aathu, mode: '0755' }

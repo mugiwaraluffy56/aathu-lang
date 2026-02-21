@@ -1,0 +1,9 @@
+[package]
+name = "aathu-diagnostics"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Error reporting and diagnostics for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true

@@ -1,0 +1,6 @@
+* @aathoos/core
+/crates/ @aathoos/compiler
+/tools/ @aathoos/tooling
+/stdlib/ @aathoos/stdlib
+/editors/ @aathoos/editor-support
+/web/ @aathoos/web

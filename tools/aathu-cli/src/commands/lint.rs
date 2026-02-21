@@ -1,0 +1,1 @@
+//! `aathu lint` command implementation.

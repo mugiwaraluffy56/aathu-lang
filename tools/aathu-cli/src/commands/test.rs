@@ -1,0 +1,1 @@
+//! `aathu test` command implementation.

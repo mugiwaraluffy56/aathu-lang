@@ -1,0 +1,2 @@
+import http, json
+fn main() { let s = http.Server(); s.get("/items", fn(r) { return {status: 200} }); s.listen(3000) }

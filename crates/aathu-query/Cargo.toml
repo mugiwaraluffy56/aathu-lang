@@ -1,0 +1,9 @@
+[package]
+name = "aathu-query"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Incremental compilation and query system for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true

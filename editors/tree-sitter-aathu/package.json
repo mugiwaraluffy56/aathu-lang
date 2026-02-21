@@ -1,0 +1,1 @@
+{"name":"tree-sitter-aathu","version":"0.1.0","description":"Tree-sitter grammar for aathu-lang","tree-sitter":[{"scope":"source.aathu","file-types":["aathu"]}]}

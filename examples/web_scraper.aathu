@@ -1,0 +1,2 @@
+import http
+fn main() { let r = http.get("https://example.com"); print(r.body) }

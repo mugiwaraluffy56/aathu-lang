@@ -1,0 +1,10 @@
+[package]
+name = "aathu-codegen"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Code generation and bytecode emitter for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
+aathu-mir.workspace = true

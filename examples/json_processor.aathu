@@ -1,0 +1,2 @@
+import json, io
+fn main() { let data = json.parse(io.read_file("data.json")); print(data) }

@@ -1,0 +1,2 @@
+import http
+fn main() { let ws = http.WebSocket("ws://localhost:8080"); ws.connect() }

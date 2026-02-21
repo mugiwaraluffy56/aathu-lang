@@ -1,0 +1,3 @@
+(* aathu-lang grammar in EBNF *)
+program = { statement } ;
+statement = let_decl | fn_decl | if_stmt | while_stmt | for_stmt | return_stmt | expr_stmt ;

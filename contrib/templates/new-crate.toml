@@ -1,0 +1,8 @@
+[package]
+name = "aathu-CRATE_NAME"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "DESCRIPTION"
+[dependencies]
+aathu-core.workspace = true

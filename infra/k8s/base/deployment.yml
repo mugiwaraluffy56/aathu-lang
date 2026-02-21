@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: aathu-registry }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: aathu-registry } }
+  template:
+    metadata: { labels: { app: aathu-registry } }
+    spec: { containers: [{ name: registry, image: "aathu/registry:latest", ports: [{ containerPort: 3000 }] }] }

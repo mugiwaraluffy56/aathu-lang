@@ -1,0 +1,2 @@
+import db
+fn main() { let c = db.connect("sqlite://app.db"); print(c.query("SELECT 1")) }

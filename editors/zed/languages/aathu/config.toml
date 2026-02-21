@@ -1,0 +1,4 @@
+name = "Aathu"
+grammar = "aathu"
+path_suffixes = ["aathu"]
+line_comments = ["// "]

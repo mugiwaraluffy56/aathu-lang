@@ -1,0 +1,9 @@
+[package]
+name = "aathu-mir"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Mid-level intermediate representation for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
