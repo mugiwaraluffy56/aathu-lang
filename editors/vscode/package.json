@@ -1,0 +1,16 @@
+{
+  "name": "aathu-lang",
+  "displayName": "aathu-lang",
+  "description": "Language support for aathu-lang",
+  "version": "0.1.0",
+  "publisher": "aathoos",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Programming Languages"],
+  "main": "./out/extension.js",
+  "activationEvents": ["onLanguage:aathu"],
+  "contributes": {
+    "languages": [{"id": "aathu", "aliases": ["Aathu"], "extensions": [".aathu"], "configuration": "./language-configuration.json"}],
+    "grammars": [{"language": "aathu", "scopeName": "source.aathu", "path": "./syntaxes/aathu.tmLanguage.json"}]
+  },
+  "devDependencies": { "typescript": "^5.3.0", "@types/vscode": "^1.85.0", "vscode-languageclient": "^9.0.0" }
+}

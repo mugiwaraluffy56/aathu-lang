@@ -1,0 +1,1 @@
+//! `aathu init` command implementation.

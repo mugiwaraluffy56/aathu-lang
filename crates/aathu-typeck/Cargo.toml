@@ -1,0 +1,10 @@
+[package]
+name = "aathu-typeck"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Type checker for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
+aathu-hir.workspace = true

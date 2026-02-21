@@ -1,0 +1,10 @@
+[package]
+name = "aathu-fmt"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Code formatter for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
+aathu-parser.workspace = true

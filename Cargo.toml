@@ -1,0 +1,52 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/aathu-core",
+    "crates/aathu-lexer",
+    "crates/aathu-parser",
+    "crates/aathu-hir",
+    "crates/aathu-mir",
+    "crates/aathu-typeck",
+    "crates/aathu-codegen",
+    "crates/aathu-vm",
+    "crates/aathu-runtime",
+    "crates/aathu-driver",
+    "crates/aathu-diagnostics",
+    "crates/aathu-query",
+    "crates/aathu-testing",
+    "tools/aathu-cli",
+    "tools/aathu-fmt",
+    "tools/aathu-lint",
+    "tools/aathu-lsp",
+    "tools/aathu-pkg",
+    "tools/aathu-debug",
+    "stdlib",
+    "tests/benchmarks",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/aathoos/aathu-lang"
+rust-version = "1.75"
+
+[workspace.dependencies]
+aathu-core = { path = "crates/aathu-core" }
+aathu-lexer = { path = "crates/aathu-lexer" }
+aathu-parser = { path = "crates/aathu-parser" }
+aathu-hir = { path = "crates/aathu-hir" }
+aathu-mir = { path = "crates/aathu-mir" }
+aathu-typeck = { path = "crates/aathu-typeck" }
+aathu-codegen = { path = "crates/aathu-codegen" }
+aathu-vm = { path = "crates/aathu-vm" }
+aathu-runtime = { path = "crates/aathu-runtime" }
+aathu-driver = { path = "crates/aathu-driver" }
+aathu-diagnostics = { path = "crates/aathu-diagnostics" }
+aathu-query = { path = "crates/aathu-query" }
+aathu-testing = { path = "crates/aathu-testing" }
+aathu-fmt = { path = "tools/aathu-fmt" }
+aathu-lint = { path = "tools/aathu-lint" }
+aathu-pkg = { path = "tools/aathu-pkg" }
+aathu-debug = { path = "tools/aathu-debug" }
+aathu-stdlib = { path = "stdlib" }

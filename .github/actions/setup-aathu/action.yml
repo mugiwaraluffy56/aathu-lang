@@ -1,0 +1,9 @@
+name: 'Setup aathu-lang'
+description: 'Install aathu-lang toolchain'
+inputs:
+  version: { description: 'Version', default: 'latest' }
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Setting up aathu-lang..."
+      shell: bash

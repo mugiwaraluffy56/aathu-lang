@@ -1,0 +1,2 @@
+import os, time
+fn main() { let ts = time.now().format("YYYY-MM-DD"); os.fs.copy("data/", "backups/" + ts) }

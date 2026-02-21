@@ -1,0 +1,2 @@
+import os, time
+fn main() { let dir = os.args()[1]; while true { print(os.fs.list(dir)); time.sleep(1000) } }

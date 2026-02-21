@@ -1,0 +1,2 @@
+import os
+fn main() { print("Deploying..."); os.exec("cargo build --release") }

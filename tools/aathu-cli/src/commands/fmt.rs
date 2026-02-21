@@ -1,0 +1,1 @@
+//! `aathu fmt` command implementation.

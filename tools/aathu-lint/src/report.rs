@@ -1,0 +1,1 @@
+//! Lint report generation.

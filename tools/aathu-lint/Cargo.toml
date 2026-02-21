@@ -1,0 +1,11 @@
+[package]
+name = "aathu-lint"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Linter for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
+aathu-parser.workspace = true
+aathu-hir.workspace = true

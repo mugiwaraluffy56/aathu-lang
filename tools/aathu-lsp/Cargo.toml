@@ -1,0 +1,12 @@
+[package]
+name = "aathu-lsp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Language Server Protocol implementation for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true
+aathu-driver.workspace = true
+aathu-fmt.workspace = true
+aathu-lint.workspace = true

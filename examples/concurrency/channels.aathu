@@ -1,0 +1,2 @@
+import concurrency
+fn main() { let ch = concurrency.channel(); concurrency.spawn(fn() { ch.send(42) }); print(ch.recv()) }

@@ -1,0 +1,9 @@
+[package]
+name = "aathu-testing"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Test harness for aathu-lang test files"
+
+[dependencies]
+aathu-core.workspace = true

@@ -1,0 +1,4 @@
+// Hello World in aathu-lang
+fn main() {
+    print("Hello, World!")
+}

@@ -1,0 +1,11 @@
+[package]
+name = "benchmarks"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+aathu-core.workspace = true
+aathu-lexer.workspace = true
+aathu-parser.workspace = true
+aathu-vm.workspace = true

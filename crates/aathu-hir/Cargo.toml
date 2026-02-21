@@ -1,0 +1,9 @@
+[package]
+name = "aathu-hir"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "High-level intermediate representation for aathu-lang"
+
+[dependencies]
+aathu-core.workspace = true

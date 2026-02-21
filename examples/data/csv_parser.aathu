@@ -1,0 +1,2 @@
+import io, string
+fn parse_csv(path) { let lines = string.split(io.read_file(path), "\n"); return lines }

@@ -1,0 +1,2 @@
+import os, time
+fn main() { while true { print("CPU: " + os.cpu_usage()); time.sleep(5000) } }

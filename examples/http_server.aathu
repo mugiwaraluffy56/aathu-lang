@@ -1,0 +1,2 @@
+import http
+fn main() { let s = http.Server(); s.get("/", fn(r) { return {status: 200, body: "Hello!"} }); s.listen(8080) }

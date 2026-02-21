@@ -1,0 +1,6 @@
+==================
+Let declaration
+==================
+let x = 42
+---
+(source_file (let_declaration (identifier) (number)))

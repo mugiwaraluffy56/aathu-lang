@@ -1,0 +1,5 @@
+datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+generator client { provider = "prisma-client-js" }
+model Package { id String @id @default(cuid()); name String @unique; versions Version[] }
+model Version { id String @id @default(cuid()); version String; package Package @relation(fields: [packageId], references: [id]); packageId String }
+model User { id String @id @default(cuid()); username String @unique; email String @unique }

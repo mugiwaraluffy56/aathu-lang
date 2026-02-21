@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: Aathu
+file_extensions: [aathu]
+scope: source.aathu
+contexts:
+  main:
+    - match: '\b(let|fn|if|else|while|for|in|return)\b'
+      scope: keyword.control.aathu
