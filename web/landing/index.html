@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aathu — Modern Scripting Language</title>
+
+    <!-- Tailwind CSS (Play CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: [
+                "-apple-system", "BlinkMacSystemFont", "Segoe UI",
+                "Helvetica Neue", "Arial", "sans-serif",
+              ],
+              mono: [
+                "ui-monospace", "SFMono-Regular", "Menlo",
+                "Consolas", "monospace",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!--
+      Build: sbt fastOptJS::webpack
+      Then open this file, or serve with: npx serve .
+    -->
+    <script src="./target/scala-3.3.3/scalajs-bundler/main/aathu-landing-fastopt-bundle.js"></script>
+  </body>
+</html>
